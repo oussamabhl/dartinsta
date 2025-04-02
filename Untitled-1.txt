@@ -1,0 +1,26 @@
+lib/
+├── main.dart
+├── app.dart
+├── models/
+│   ├── user.dart
+│   ├── post.dart
+│   └── story.dart
+├── screens/
+│   ├── auth/
+│   │   ├── login_screen.dart
+│   │   └── signup_screen.dart
+│   ├── main/
+│   │   ├── home_screen.dart
+│   │   ├── search_screen.dart
+│   │   ├── create_post_screen.dart
+│   │   ├── notifications_screen.dart
+│   │   └── profile_screen.dart
+│   └── comments_screen.dart
+├── widgets/
+│   ├── post_item.dart
+│   └── story_circle.dart
+├── services/
+│   ├── auth_service.dart
+│   └── api_service.dart
+└── utils/
+    └── theme.dart
